@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .star_rating {
+        padding: 10px 20px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        text-align: center;
+        user-select: none;
+        .star {
+            font-size: 28px;
+            background-color: transparent;
+            border: none;
+            color: #ff9800;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
